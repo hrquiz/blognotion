@@ -40,7 +40,7 @@ const createSitemap = (
         .map((canonicalPagePath) =>
           `
             <url>
-              <loc>${host}/${canonicalPagePath}</loc>
+              <loc>${host}/${canonicalPagePath}/${canonicalPagePath}</loc>
             </url>
           `.trim()
         )
