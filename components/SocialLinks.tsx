@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter, FaGithub, FaLinkedin, FaTwitch,  FaGoodreads, FaYoutube, FaInstagram, FaTelegram } from 'react-icons/fa'
+import { FaTwitter, FaGithub, FaLinkedin, FaTwitch,  FaGoodreads, FaYoutube, FaInstagram, FaTelegramPlane } from 'react-icons/fa'
 import { SiLetterboxd } from 'react-icons/si'
 
 import * as config from 'lib/config'
@@ -68,7 +68,7 @@ export const SocialLinks = (props: Props) => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaTelegram />
+            <FaTelegramPlane />
           </a>
         )}
 
