@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '693a04a6acd9483eb7cc825b3364b836',
+  rootNotionPageId: '4f8e07bed170475195d669adae16f81c',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -42,17 +42,17 @@ module.exports = {
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
   // variables specified in .env.example
-  isPreviewImageSupportEnabled: false,
+  isPreviewImageSupportEnabled: true,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
   // example:
   //
-   pageUrlOverrides: {
-     '/esda': '629572f981f748d18a9b3933c7382bff',
-     '/esdal': '49f4d07db6bb43b4869e41ca90cb3779',
-     '/gb': 'dcd3574021704f5a8778aaaaa282a8e6'
+   //pageUrlOverrides: {
+   //  '/esda': '629572f981f748d18a9b3933c7382bff',
+   //  '/esdal': '49f4d07db6bb43b4869e41ca90cb3779',
+   //  '/gb': 'dcd3574021704f5a8778aaaaa282a8e6'
 
-   }
-  //pageUrlOverrides: null
+   //}
+  pageUrlOverrides: null
 }
