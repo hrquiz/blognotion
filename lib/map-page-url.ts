@@ -35,6 +35,8 @@ export const getCanonicalPageUrl = (
   } else {
     return `https://${site.domain}/${getCanonicalPageId(pageUuid, recordMap, {
       uuid
+    })}/${getCanonicalPageId(pageUuid, recordMap, {
+      uuid
     })}`
   }
 }
