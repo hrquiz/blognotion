@@ -48,11 +48,11 @@ module.exports = {
   // any pages defined here will override their default URL paths
   // example:
   //
-   pageUrlOverrides: {
-     '/esda': '629572f981f748d18a9b3933c7382bff',
-     '/esdal': '49f4d07db6bb43b4869e41ca90cb3779',
-     '/gb': 'dcd3574021704f5a8778aaaaa282a8e6',
+  // pageUrlOverrides: {
+  //   '/esda': '629572f981f748d18a9b3933c7382bff',
+  //   '/esdal': '49f4d07db6bb43b4869e41ca90cb3779',
+  //   '/gb': 'dcd3574021704f5a8778aaaaa282a8e6',
 
-   }
-  //pageUrlOverrides: null
+  // }
+  pageUrlOverrides: null
 }
