@@ -343,3 +343,11 @@
 #__next > div > div.notion-frame > header > div > div.breadcrumbs > a:nth-child(3){
   display: none!important;
 }
+
+#__next > div > div.notion-frame > header > div > div.breadcrumbs > span:nth-child(2){
+  display: none!important;
+}
+
+#__next > div > div.notion-frame > header > div > div.rhs {
+  display: none!important;
+}
